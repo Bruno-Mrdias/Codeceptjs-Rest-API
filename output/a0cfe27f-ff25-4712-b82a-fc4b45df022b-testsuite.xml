@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729552755407' stop='1729552757363'>
+    <name>people:</name>
+    <title>people:</title>
+    <test-cases>
+        <test-case start='1729552755425' status='passed' stop='1729552756528'>
+            <name>Teste validar request </name>
+            <title>Teste validar request </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729552755439' status='passed' stop='1729552756527'>
+                    <name>I send get request "/people"</name>
+                    <title>I send get request "/people"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552756527' status='passed' stop='1729552756528'>
+                    <name>I see response code is successful </name>
+                    <title>I see response code is successful </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1729552756530' status='passed' stop='1729552756788'>
+            <name>Teste validar request people 1 </name>
+            <title>Teste validar request people 1 </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729552756533' status='passed' stop='1729552756784'>
+                    <name>I send get request "/people/1"</name>
+                    <title>I send get request "/people/1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552756784' status='passed' stop='1729552756785'>
+                    <name>I see response code is successful </name>
+                    <title>I see response code is successful </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552756785' status='passed' stop='1729552756786'>
+                    <name>I see response contains keys ["name","height"]</name>
+                    <title>I see response contains keys ["name","height"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552756786' status='passed' stop='1729552756788'>
+                    <name>I see response contains json {"name":"Luke Skywalker","height":"172","birth_year":"19BBY","gender":"male"}</name>
+                    <title>I see response contains json {"name":"Luke Skywalker","height":"172","birth_year":"19BBY","gender":"male"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1729552756790' status='passed' stop='1729552757042'>
+            <name>Teste validar request people 3 </name>
+            <title>Teste validar request people 3 </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729552756791' status='passed' stop='1729552757042'>
+                    <name>I send get request "/people/3"</name>
+                    <title>I send get request "/people/3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552757042' status='passed' stop='1729552757042'>
+                    <name>I see response code is successful </name>
+                    <title>I see response code is successful </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552757042' status='passed' stop='1729552757042'>
+                    <name>I see response contains json {"name":"R2-D2","eye_color":"red","height":"96"}</name>
+                    <title>I see response contains json {"name":"R2-D2","eye_color":"red","height":"96"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1729552757043' status='passed' stop='1729552757362'>
+            <name>Teste validar request people 2 </name>
+            <title>Teste validar request people 2 </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729552757044' status='passed' stop='1729552757361'>
+                    <name>I send get request "/people/2"</name>
+                    <title>I send get request "/people/2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552757361' status='passed' stop='1729552757362'>
+                    <name>I see response code is successful </name>
+                    <title>I see response code is successful </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729552757362' status='passed' stop='1729552757362'>
+                    <name>I see response contains keys ["name","height","eye_color"]</name>
+                    <title>I see response contains keys ["name","height","eye_color"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
