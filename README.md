@@ -1,5 +1,5 @@
 ## Projeto Automação WEB
-CodeceptJs + JS
+CodeceptJs + JS +
 REST API + Allure
 
 ## Contato:
