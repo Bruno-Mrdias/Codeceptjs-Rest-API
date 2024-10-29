@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730234911081' stop='1730234911081'>
+    <name>people:</name>
+    <title>people:</title>
+    <test-cases>
+        <test-case start='1730234911081' status='pending' stop='1730234911081'>
+            <name>Teste validar request people 2 </name>
+            <title>Teste validar request people 2 </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Skipped due to failure in 'before' hook</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

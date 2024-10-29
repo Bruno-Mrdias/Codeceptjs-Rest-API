@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730235061392' stop='1730235061423'>
+    <name>people:</name>
+    <title>people:</title>
+    <test-cases>
+        <test-case start='1730235061400' status='failed' stop='1730235061400'>
+            <name>BeforeSuite of suite people: failed.</name>
+            <title>BeforeSuite of suite people: failed.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>soma.soma is not a function</message>
+                <stack-trace>TypeError: soma.soma is not a function
+                    at Context.&lt;anonymous> (D:\backend\people_test.js:6:18)
+                    at promiseRetry.retries.retries (D:\backend\node_modules\codeceptjs\lib\scenario.js:143:20)
+                    at D:\backend\node_modules\promise-retry\index.js:29:24</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

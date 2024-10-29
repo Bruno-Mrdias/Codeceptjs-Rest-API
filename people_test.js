@@ -1,10 +1,19 @@
+const soma = require('./utils/soma.js')
+
 Feature('people');
+
+BeforeSuite(() =>{
+console.log('antes de tudo');
+console.log(soma.soma(12, 2));
+
+
+})
+
 
 Scenario('Teste validar request ',  ({ I }) => {
 
     I.sendGetRequest('/people')
     I.seeResponseCodeIsSuccessful()
-
 });
 
 Scenario('Teste validar request people 1 ',  ({ I }) => {

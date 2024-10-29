@@ -1,3 +1,6 @@
+const { bootstrap, teardown } = require("./server/server");
+const server = require('./server/server.js')
+
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   tests: './*_test.js',
@@ -10,6 +13,7 @@ exports.config = {
   },
   include: {
     I: './steps_file.js'
+
   },
   name: 'backend',
   plugins: {
@@ -17,5 +21,12 @@ exports.config = {
       enabled: true,
       require: '@codeceptjs/allure-legacy',
     },
+    bootstrap: async () => {
+      await server.start();
+    },
+
+    teardown: async () => {
+      await server.stop();
+    }
   },
 }
